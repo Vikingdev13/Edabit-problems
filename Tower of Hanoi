@@ -1,0 +1,8 @@
+# Create a function that takes a number discs as an argument and returns the minimum
+# amount of steps needed to complete the game.
+
+def tower_hanoi(discs):
+    return (2 ** discs) - 1
+
+
+tower_hanoi(3)

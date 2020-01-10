@@ -1,0 +1,10 @@
+import math
+
+
+# The recursive function for this challenge should return the factorial of an inputted integer.
+
+def factorial(num):
+    return math.factorial(num)
+
+
+factorial(5)
