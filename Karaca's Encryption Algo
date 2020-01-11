@@ -1,0 +1,12 @@
+# Step 1: Reverse Input
+# Step 2: Replace vowels
+# Step 3: Add 'aca' to the end of word
+
+
+
+def encrypt(word):
+    newWord = word.translate({ord('a'): '0', ord('e'): '1', ord('o'): '2', ord('u'): '3'})
+    return newWord[::-1] + 'aca'
+
+
+encrypt('hello')
